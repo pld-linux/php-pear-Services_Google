@@ -24,7 +24,7 @@ Allows easy access to the Google Web APIs for the search engine,
 spelling suggestions, and cache.
 
 To use the package you'll need an API key from
-http://www.google.com/apis/ .
+<http://www.google.com/apis/>.
 
 In PEAR status of this package is: %{_status}.
 
@@ -33,7 +33,7 @@ Pozwala na ³atwy dostêp do API stron Google - wyszukiwarki, porad
 dotycz±cych pisowni oraz cache.
 
 Aby u¿yæ tego pakietu potrzebny bêdzie klucz API ze strony
-http://www.google.com/apis/ .
+<http://www.google.com/apis/>.
 
 Ta klasa ma w PEAR status: %{_status}.
 
