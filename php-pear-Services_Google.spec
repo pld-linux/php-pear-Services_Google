@@ -43,8 +43,6 @@ Ta klasa ma w PEAR status: %{_status}.
 %prep
 %pear_package_setup
 
-rm -f ./%{php_pear_dir}/%{_class}/buildPackage.php # junk
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{php_pear_dir}
