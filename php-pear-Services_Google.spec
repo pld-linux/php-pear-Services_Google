@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Provides access to the Google Web APIs
 Summary(pl):	%{_pearname} - Dostêp do API stron Google
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -17,9 +17,9 @@ URL:		http://pear.php.net/package/Services_Google/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
+Requires:	php(soap)
 Requires:	php-common >= 3:5.0.0
 Requires:	php-pear
-Requires:	php-soap
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
