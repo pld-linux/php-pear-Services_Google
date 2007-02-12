@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Provides access to the Google Web APIs
-Summary(pl.UTF-8):   %{_pearname} - Dostęp do API stron Google
+Summary(pl.UTF-8):	%{_pearname} - Dostęp do API stron Google
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	2
