@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Provides access to the Google Web APIs
-Summary(pl):	%{_pearname} - Dostêp do API stron Google
+Summary(pl.UTF-8):   %{_pearname} - DostÄ™p do API stron Google
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	2
@@ -32,11 +32,11 @@ To use the package you'll need an API key from
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pozwala na ³atwy dostêp do API stron Google - wyszukiwarki, porad
-dotycz±cych pisowni oraz cache.
+%description -l pl.UTF-8
+Pozwala na Å‚atwy dostÄ™p do API stron Google - wyszukiwarki, porad
+dotyczÄ…cych pisowni oraz cache.
 
-Aby u¿yæ tego pakietu potrzebny bêdzie klucz API ze strony
+Aby uÅ¼yÄ‡ tego pakietu potrzebny bÄ™dzie klucz API ze strony
 <http://www.google.com/apis/>.
 
 Ta klasa ma w PEAR status: %{_status}.
