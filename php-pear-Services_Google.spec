@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Provides access to the Google Web APIs
 Summary(pl.UTF-8):	%{_pearname} - Dostęp do API stron Google
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
