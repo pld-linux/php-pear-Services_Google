@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	Services_Google
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Provides access to the Google Web APIs
 Summary(pl.UTF-8):	%{_pearname} - Dostęp do API stron Google
 Name:		php-pear-%{_pearname}
